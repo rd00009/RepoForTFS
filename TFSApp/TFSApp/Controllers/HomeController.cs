@@ -11,6 +11,7 @@ namespace TFSApp.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+            ViewBag.Msg = "This will not work";
 
             return View();
         }
